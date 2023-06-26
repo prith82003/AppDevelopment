@@ -1,0 +1,37 @@
+{
+  "name": "test-app",
+  "productName": "test-app",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Prithviraaj",
+    "email": "z5419216@ad.unsw.edu.au"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-rpm": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
+    "@types/electron": "^1.6.10",
+    "electron": "25.2.0",
+    "typescript": "^5.1.3"
+  }
+}
